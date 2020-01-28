@@ -1,5 +1,30 @@
 body {
   font-family: 'Space Mono', monospace;
+  font-size: 16px;
   background-color: #000000;
   color: #ffffff;
+}
+
+.container {
+  padding: 16px;
+}
+
+.title {
+  text-align: center;
+}
+
+.email {
+  font-size: 14px;
+}
+
+.avatar__photo {
+  border-radius: 50%;
+  width: 128px;
+}
+
+@media(min-width: 992px) {
+  .container {
+    margin: auto;
+    width: 900px
+  }
 }
