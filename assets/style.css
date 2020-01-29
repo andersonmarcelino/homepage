@@ -6,15 +6,23 @@ body {
 }
 
 .container {
+  margin-top: 50vh;
   padding: 16px;
+  transform: translate(0,-50%);
 }
 
 .title {
   text-align: center;
 }
 
-.email {
+.legend {
+  display: block;
   font-size: 14px;
+  margin: 4px 0;
+}
+
+.legend--strong {
+  font-weight: 600;
 }
 
 .avatar__photo {
@@ -24,7 +32,8 @@ body {
 
 @media(min-width: 992px) {
   .container {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 900px;
   }
 
