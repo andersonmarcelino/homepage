@@ -7,4 +7,4 @@ COPY . /var/app
 
 WORKDIR /var/app
 
-CMD live-server --no-browser --verbose --port:$PORT
+CMD live-server --no-browser --verbose --port=$PORT
